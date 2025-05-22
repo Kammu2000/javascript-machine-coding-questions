@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.app {
+  padding: 20px;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 15px;
+  border: 1px solid grey;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+button:hover {
+  color: white;
+  border-color: blueviolet;
+  background-color: blueviolet;
+}
+
+.stop-watch {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.stop-watch__time {
+  font-size: 25px;
+}
+
+.stop-watch__control-btns {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
